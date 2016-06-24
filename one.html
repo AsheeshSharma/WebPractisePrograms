@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-pink">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css">
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="jsonservicing.js"></script>  
+
+      
+      <script type="text/javascript">
+         $(function(){
+          var $select = $(".selectDropDown");
+          for (i=1;i<=100;i++){
+              $select.append($('<option></option>').val(i).html(i))
+          }
+         });
+      </script>'
+   </head>
+   <body>
+      <div id="inputDiv">
+         <center>
+            <div id="innerDiv">
+               <input type="submit" name="submitKeyword" id="submitKeyword" value="ADD">
+               <div id="companyDiv"></div>
+
+            </div>
+         </center>
+      </div>
+      <div id="keywordDiv">
+         <p id="keywordText">KEYWORD</p>
+         <input type="submit" name="refreshKeyword" id="refreshKeyword" value="Refresh">
+      </div>
+      <hr>
+      <div id="tableBlock">
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i1"></span>  Market</p>
+            <span class="addButton"></span>            
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i2"></span>  Thacker</p>
+            <span class="addButton"></span>              
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i3"></span>  Mitesh Thacker</p>
+            <span class="addButton"></span>                  
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i4"></span>  Mumbai</p>
+            <span class="addButton"></span>             
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i5"></span>  Market</p>
+            <span class="addButton"></span>              
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i6"></span>  State Bank Of India</p>
+            <span class="addButton"></span>               
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i7"></span>  Buy SBI</p>
+            <span class="addButton"></span>              
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+         <div class="innerTableBlock">
+            <p class="pTableBlock"><span class="iconSprite" id="i8"></span>  GGGG</p>
+            <span class="addButton"></span>                
+            <select class="selectDropDown"></select><br><br>
+            <hr class="hrTableBlock">
+         </div>
+      </div>
+      <div id="footerDiv">
+         <center>
+            <p class="pFooter"><span id="i9" class="iconSprite"></span>TOPIC</p>
+            <p class="pFooter"><span class="iconSprite" id="i1"></span>SPONSORED</p>
+            <p class="pFooter"><span class="iconSprite" id="i10"></span>AGENCY</p>
+            <p class="pFooter"><span class="iconSprite" id="i11"></span>COMPANY</p>
+            <p class="pFooter"><span class="iconSprite" id="i12"></span>DEFINATION</p>
+            <p class="pFooter"><span class="iconSprite" id="i6"></span>COMMODITY</p>
+            <p class="pFooter"><span class="iconSprite" id="i8"></span>UNKNOWN</p>
+            <p class="pFooter"><span class="iconSprite" id="i3"></span>PERSON</p>
+            <p class="pFooter"><span class="iconSprite" id="i4"></span>LOCATION</p>
+            <p class="pFooter"><span class="iconSprite" id="i2"></span>ORGANIZATION</p>
+         </center>
+      </div>
+   </body>
+</html>

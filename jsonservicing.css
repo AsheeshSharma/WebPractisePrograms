@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    position: relative;
+    left: -31px;
+    top: -15px;
+}
+li {
+    padding: 10px;
+    border: 1px solid;
+    border-style: dotted;
+    width: 298px;
+    margin-left: -9px;
+}
+.headList {
+    background-color: aliceblue;
+}

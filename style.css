@@ -1,0 +1,210 @@
+#inputDiv {
+    height: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(211, 211, 211, 0.2);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color: rgba(211, 211, 211, 1.0);
+    border-bottom-color: rgba(211, 211, 211, 1.0);
+}
+#footerDiv {
+    height: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(211, 211, 211, 0.2);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color: rgba(211, 211, 211, 1.0);
+    border-bottom-color: rgba(211, 211, 211, 1.0);
+}
+#keywordDiv {
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: transparent;
+}
+#keywordText {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    margin-top: 17px;
+}
+#innerDiv {
+    padding: 15px;
+}
+#inputKeyword {
+    padding: 5px;
+}
+#submitKeyword {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+#refreshKeyword {
+    float: right;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 17px;
+    background-color: #009fff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+hr {
+    border-color: rgba(211, 211, 211, 0.4);
+    margin-top: -5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.iconSprite {
+    background: url('test.cms') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+#i1 {
+    background-position: -147px -7px;
+    
+}
+#i2 {
+    background-position: -259px -7px;
+}
+#i3 {
+    background-position: -203px -7px;
+}
+#i4 {
+    background-position: -231px -7px;
+}
+#i5 {
+    background-position: -145px -7px
+}
+#i6 {
+    background-position: -118px -7px;
+
+}
+#i7 {
+    background-position: -258px -7px
+
+}
+#i8 {
+    background-position: -175px -7px;
+
+}
+#i9 {
+    background-position: -6px -7px;
+
+}
+#i10 {
+    background-position: -35px -7px;
+
+}
+#i11 {
+    background-position: -63px -7px
+}
+#i12 {
+    background-position: -175px -7px;
+
+}
+.addButton{
+
+    background: url('test.cms') no-repeat;
+    background-position: -36px -40px;
+    float: right;
+    position: relative;
+    top: 1px;
+    width: 22px;
+    height: 22px;
+
+}
+#tableBlock {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.pFooter {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.pTableBlock {
+    width: 150px;
+    display: inline;
+    position: relative;
+    top: -5px;
+    left: 10px
+}
+.imageTableBlock {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-left: 9px;
+    margin-right: 10px;
+}
+.hrTableBlock {
+    margin-left: 0px;
+    margin-top: -14px;
+    margin-right: 0px;
+    margin-right: 10px;
+    position: relative;
+    left: 5px;
+}
+.selectDropDown {
+-webkit-appearance: none;
+    float: right;
+    background: url('test.cms') no-repeat;
+    background-position: 9px -63px;
+    /* background-position-x: 25px; */
+    background-color: rgba(65, 105, 225, 0.1);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color: rgba(211, 211, 211, 1.0);
+    border-bottom-color: rgba(211, 211, 211, 1.0);
+    border-radius: 4px;
+    width: 44px;
+    height: 21px;
+    padding-left: 2px;
+    background-size: 403px 98px;
+    margin-right: 5px;
+    
+}
+.innerTableBlock{
+    width:33%;
+    display:inline-block
+}
+ul {
+    list-style-type: none;
+    position: relative;
+    left: -31px;
+    top: -15px;
+}
+li {
+    padding: 10px;
+    border: 1px solid;
+    border-style: dotted;
+    width: 298px;
+    margin-left: -9px;
+}
+.headList {
+    background-color: aliceblue;
+}
+#companyDiv{
+    z-index:1;
+    position: relative;
+    background-color: white;
+    width: 319px;
+}
